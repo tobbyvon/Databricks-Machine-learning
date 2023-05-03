@@ -37,5 +37,7 @@ So as to train the model with different values of the hyperparameters, the datas
  
 For performing the hyperparameter tuning the fit() method use acheive this, after performing the hyperparameter tuning, the grid search is then performed finding the best performing model out of the models which was built .
  
-Brief discussion of result 
+# Brief discussion of result 
+
+
 FaultDataset.csv. row contains twenty vibration sensor readings, and the final column identifies whether there was a fault with the machine at the time of the readings. In this column, the aim  of this report is to be able to classify whether there is a fault with the machine based on the readings from the vibration sensors, this will answer the following question: Load the dataset into a Spark Data Frame, Use MLlib to train a Decision Tree classification model (DecisionTreeClassifieralgorithm) on the provided data and evaluate its performance, Track your experiment with ML flow. The accuracy is 0.952432, which means that 95% of the predictions made by our model on the test dataset are correct, which seems like a good result, for the best hyperparameters there is a marginal improvement in the performance of the model after grid search to select the best hyperparameters was performed giving 0.9650450450450451 as the result.
